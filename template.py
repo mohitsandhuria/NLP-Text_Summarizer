@@ -45,3 +45,4 @@ for files in list_file:
     else:
         logging.info(f"file already exist:{file_path}")
 
+# Set-ExecutionPolicy RemoteSigned -Scope Process
