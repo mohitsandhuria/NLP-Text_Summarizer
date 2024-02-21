@@ -62,7 +62,3 @@ def get_size(path: Path) -> str:
     return f"~ {size_in_kb} KB"
 
 
-def pro():
-    pass
-
-
