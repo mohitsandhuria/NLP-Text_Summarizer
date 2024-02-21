@@ -5,26 +5,25 @@ import logging
 logging.basicConfig(level=logging.INFO,format="[%(asctime)s]: %(message)s")
 
 project_name="text_summarizer"
-folder="Text_Summarizer"
 list_file=[
-    f"{folder}/.github/worlflows/.gitkeep",
-    f"{folder}/src/{project_name}/__init__.py",
-    f"{folder}/src/{project_name}/components/__init__.py",
-    f"{folder}/src/{project_name}/utils/__init__.py",
-    f"{folder}/src/{project_name}/utils/common.py",
-    f"{folder}/src/{project_name}/logging/__init__.py",
-    f"{folder}/src/{project_name}/config/configuration.py",
-    f"{folder}/src/{project_name}/pipeline/__init__.py",
-    f"{folder}/src/{project_name}/entity/__init__.py",
-    f"{folder}/src/{project_name}/constants/__init__.py",
-    f"{folder}/config/config.yaml",
-    f"{folder}/params.yaml",
-    f"{folder}/app.py",
-    f"{folder}/main.py",
-    f"{folder}/Dockerfile",
-    f"{folder}/requirements.txt",
-    f"{folder}/setup.py",
-    f"{folder}/research/trials.ipynb"
+    f".github/worlflows/.gitkeep",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/utils/common.py",
+    f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/config/configuration.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
+    f"config/config.yaml",
+    f"params.yaml",
+    f"app.py",
+    f"main.py",
+    f"Dockerfile",
+    f"requirements.txt",
+    f"setup.py",
+    f"research/trials.ipynb"
 ]
 
 
